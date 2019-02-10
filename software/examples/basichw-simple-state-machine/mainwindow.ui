@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Application demo - FrameECC v0.1.0.0</string>
+   <string>Application demo - Simple State-Machine v0.1.0</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
