@@ -1,0 +1,8 @@
+# Ignore the bellow folders
+.Xil/
+__pycache__/
+
+# Ignore the bellow files
+software/**/*.rbd
+software/examples/basichw-commands/log-files/*.*
+software/examples/basichw-simple-state-machine/log-files/*.*

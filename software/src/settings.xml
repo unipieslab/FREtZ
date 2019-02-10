@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<settings>
+        <!-- REQUIRED SETTINGS -->
+        <!-- The folder of the Vivado binary -->
+        <VivadoBinDirectoryPath>C:\Xilinx\Vivado\2018.2\bin</VivadoBinDirectoryPath>
+        <!-- The working folder -->
+        <WorkingDirectory>D:/Projects/Xilinx/osda2019/software/examples/basic</WorkingDirectory>
+        <!-- The FPGA bitstream configuration file -->
+        <BitstreamFilePath>D:\Projects\Xilinx\osda2019\hardware\bin\basic\zybo\onchiplogic.bit</BitstreamFilePath>
+        <!-- The mask file of the FPGA bitstream -->
+        <MaskFilePath>D:\Projects\Xilinx\osda2019\hardware\bin\basic\zybo\onchiplogic.msk</MaskFilePath>
+        <!-- The file containing the frame data which will be written upon frame-write -->
+        <FrameDataFilePath>D:/Projects/Xilinx/osda2019/software/examples/basic/frame_faultinjection-write.txt</FrameDataFilePath>
+        <!-- Set to True if the frame data of FrameDataFilePath is in HEX format -->
+        <FrameDataInHexFormat>False</FrameDataInHexFormat>
+        <!-- Set to True to append a dummy frame at the end of FrameDataFilePath -->
+        <AppendDummyFrame>True</AppendDummyFrame>
+
+        <!-- OPTIONAL SETTINGS -->
+        <!-- The golden readback file -->
+        <ReadbackFilePathGolden>D:\Projects\Python\demo-app\gold.rbd</ReadbackFilePathGolden>
+        <!-- The selected application -->
+        <SelectedApplication>2</SelectedApplication>
+        <!-- The time (in msec) between configuration and readback capture -->
+        <TimeToReadbackMsec>0</TimeToReadbackMsec>        
+        <!-- The Heartbeat time interval in msec -->
+        <HeartbeatFifoCheckPeriodMsec>10000</HeartbeatFifoCheckPeriodMsec>
+        <!-- NOT USED YET -->
+        <GoldenParityDirectory>10000</GoldenParityDirectory>
+        <!-- NOT USED YET -->
+        <FrameAddress>00420E00</FrameAddress>
+        <!-- Beam OFF timer (the time available to correct any errors) -->
+        <BeamOffTimeMsec>45000</BeamOffTimeMsec>
+        <!-- Beam time msec (BEAM ON + BEAM OFF) -->
+        <BeamTimeMsec>60000</BeamTimeMsec>
+        <!-- The file holding the list of the available frame addresses -->
+        <FrameAddressesListFilePath>D:\Projects\Python\demo-app\XZC07020_FRAD_List_Lines.txt</FrameAddressesListFilePath>
+        <!-- Enables fault injection -->
+        <EnableFaultInjection>True</EnableFaultInjection>
+        <!-- The time between the faults (in msec) -->
+        <FaultInjectionPeriodMsec>2000</FaultInjectionPeriodMsec>
+        <!-- How many faults will be added in a single frame -->
+        <FaultsPerFrame>7</FaultsPerFrame>
+        <!-- Beam control functionality. True: Manually -->
+        <ManualBeamOff>False</ManualBeamOff>
+        <!-- The maximum size of the FIFO -->
+        <FifoDepth>512</FifoDepth>
+        <!-- The Rising/Falling edge of the beam to trigger the application -->
+        <OscilloscopeEdge>Rising</OscilloscopeEdge>
+        <!-- Number of heartbeats -->
+        <NumberOfHeartbeats>8</NumberOfHeartbeats>
+        <!-- The voltage (Volts) of the trigger -->
+        <TriggerLevelVolts>1.5</TriggerLevelVolts>
+</settings>
