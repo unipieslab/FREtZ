@@ -50,6 +50,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 * **Aitzan Sari** -  [aitzans](https://github.com/aitzans)
+* **Vasileios Vlagkoulis** -  [vvlagkoulis](https://github.com/vvlagkoulis)
 
 See also the list of [contributors](https://github.com/unipieslab/FREtZ/contributors) who participated in this project.
 
